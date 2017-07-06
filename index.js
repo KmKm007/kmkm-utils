@@ -1,10 +1,11 @@
-const srcPath = './src'
+export { default as DateUtil } from './src/DateUtil'
 
-module.exports = {
-  DateUtil: require(srcPath + '/DateUtil'),
-  ArrayUtil: require(srcPath + '/ArrayUtil'),
-  FetchUtil: require(srcPath + '/FetchUtil'),
-  HistoryUtil: require(srcPath + '/HistoryUtil'),
-  ReducerUtil: require(srcPath + '/ReducerUtil'),
-  UrlUtil: require(srcPath + '/UrlUtil')
-}
+export { default as ArrayUtil } from './src/ArrayUtil'
+
+export { default as FetchUtil } from './src/FetchUtil'
+
+export { default as HistoryUtil } from './src/HistoryUtil'
+
+export { default as ReducerUtil } from './src/ReducerUtil'
+
+export { default as UrlUtil } from './src/UrlUtil'
