@@ -1,13 +1,16 @@
 {
   "name": "kmkm-utils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "js utils by KmKm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -r -f dist && webpack"
   },
   "keywords": [
-    "utils"
+    "JavaScript",
+    "utils",
+    "Redux",
+    "History"
   ],
   "author": "KmKm",
   "license": "ISC",
