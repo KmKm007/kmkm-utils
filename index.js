@@ -1,11 +1,20 @@
-export { default as DateUtil } from './src/DateUtil'
+const DateUtil = require('./src/DateUtil')
 
-export { default as ArrayUtil } from './src/ArrayUtil'
+const ArrayUtil = require('./src/ArrayUtil')
 
-export { default as FetchUtil } from './src/FetchUtil'
+const FetchUtil = require('./src/FetchUtil')
 
-export { default as HistoryUtil } from './src/HistoryUtil'
+const HistoryUtil = require('./src/HistoryUtil')
 
-export { default as ReducerUtil } from './src/ReducerUtil'
+const ReducerUtil = require('./src/ReducerUtil')
 
-export { default as UrlUtil } from './src/UrlUtil'
+const UrlUtil = require('./src/UrlUtil')
+
+module.exports = {
+  DateUtil,
+  ArrayUtil,
+  FetchUtil,
+  HistoryUtil,
+  ReducerUtil,
+  UrlUtil
+}
