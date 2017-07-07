@@ -11,10 +11,10 @@ const ReducerUtil = require('./dist/ReducerUtil')
 const UrlUtil = require('./dist/UrlUtil')
 
 module.exports = {
-  DateUtil,
-  ArrayUtil,
-  FetchUtil,
-  HistoryUtil,
-  ReducerUtil,
-  UrlUtil
+  DateUtil: DateUtil,
+  ArrayUtil: ArrayUtil,
+  FetchUtil: FetchUtil,
+  HistoryUtil: HistoryUtil,
+  ReducerUtil: ReducerUtil,
+  UrlUtil: UrlUtil
 }
