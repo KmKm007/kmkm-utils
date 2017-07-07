@@ -4,7 +4,8 @@
   "description": "js utils by KmKm",
   "main": "index.js",
   "scripts": {
-    "build": "rm -r -f dist && webpack"
+    "clean": "rm -r -f dist",
+    "build": "npm run clean && webpack"
   },
   "keywords": [
     "JavaScript",
