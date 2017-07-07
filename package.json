@@ -1,6 +1,6 @@
 {
   "name": "kmkm-utils",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "js utils by KmKm",
   "main": "index.js",
   "scripts": {
