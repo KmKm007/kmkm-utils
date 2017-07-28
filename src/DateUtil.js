@@ -28,7 +28,7 @@
 
     DateUtil.getCurrentTimeObject = function() {
         const time = Date.now()
-        const timeObject = parseToTimeObject(time)
+        const timeObject = this.parseToTimeObject(time)
         return timeObject
     }
 
