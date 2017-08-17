@@ -6,6 +6,7 @@
   FetchUtil.getErrorMesg = function(error) {
     switch (error.message) {
       case 'Failed to fetch':
+      case 'Network Error':
         return '网络出错，请检查网络！'
       default:
         return error.message
