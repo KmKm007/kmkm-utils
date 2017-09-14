@@ -4,12 +4,13 @@
 })(this, function() {
   const FetchUtil = {}
   FetchUtil.getErrorMesg = function(error) {
-    switch (error.message) {
-      case 'Failed to fetch':
-      case 'Network Error':
-        return '网络出错，请检查网络！'
-      default:
-        return error.message
+    const message = error.message
+    if (message.search('Network Error') {
+      return '网络异常，请重试！'
+    } else if (message.search('timeout')) {
+      return '网络异常，请重试'
+    } else {
+      return message
     }
   }
   return FetchUtil
